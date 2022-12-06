@@ -1,0 +1,1964 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@200&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    background-image: url('../images/da77874be0465f76e27d990889dfd7ac.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    height: auto;
+    z-index: -5000;
+}
+.body{
+    height: auto;
+    background-color: rgba(0, 165, 194, 0.2);
+    padding-top: 3vmax;
+    z-index: -6000;
+}
+
+nav{
+    margin: auto;
+ 
+    display: flex;
+    width: 80%;
+
+    justify-content: space-between;
+    align-items: center;
+position: relative;
+    z-index: 115000;
+
+}
+
+.hero{
+    background-color: #9D0FA9;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 10.4vmax;
+    padding: 0.5vmax 0.5vmax;
+    display: flex;
+    align-items: center;
+cursor: pointer;
+}
+
+.hero img{
+    padding-right: 0.4vmax;
+   width: 2.3vmax;
+ height: 2.3vmax;
+}
+.hero h1{
+    color: #FFFFFF;
+    font-size: 1.4vmax;
+}
+.fa-bars{
+    color: red !important;
+    font-size: 3.5vmax;
+    display: none;
+
+}
+.fa-circle-xmark{
+    color:red !important;
+    font-size: 3.5vmax;
+display: none;
+}
+.hideNavbar{
+    display: none;
+
+}
+.hideNavbar li {
+    list-style-type: none;
+    padding: 0px 0.5vmax;
+    color:#FFFFFF;
+}
+.hideNavbar li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+  
+}
+
+.navSide{
+display: flex;
+cursor: pointer;
+}
+
+
+.navSide li {
+    list-style-type: none;
+    padding: 0px 0.6vmax;
+    color:#FFFFFF;
+
+
+}
+.navSide li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  font-size: 1.2vmax;
+  transition: 0.3s;
+  
+}
+.navSide li a:hover{
+   color: rgb(209, 121, 212);
+  
+}
+.landing{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing-content-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.landing-content h4{
+    margin-top: 1vmax;
+    font-size: 1.7vmax;
+    font-weight:lighter;
+    color: #FFFFFF;
+}
+.byGamers{
+    color: #F681D3;
+    font-weight: bold;
+    font-size: 5.2vmax;
+}
+.forGamers{
+    border-radius: 50px;
+    background-color: #9900E5;
+    color: #FFFFFF;
+ padding: 0.7vmax 2vmax;
+}
+.forGamers p{
+font-weight:900;
+font-size: 5.2vmax;
+}
+
+.landing-content-h1 h1{
+    margin: 0;
+    padding: 0;
+font-size: 5vmax;
+}
+.cuteObject{
+height: 100vh;
+width: 100%;
+margin: auto;
+position: absolute;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 0;
+
+}
+.topObject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+width: 76%;
+margin-top: 10vmax;
+}
+
+
+.botObject{
+    display: flex;
+    width: 80%;
+    margin: auto;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 5vmax;
+
+}
+.gameCircleFirst{
+    align-self: flex-start;
+    display: flex;
+    background-color: #930084;
+    align-items: center;
+    justify-content: center;
+border-radius: 20px;
+text-decoration: none;
+padding: 1.3vmax 4vmax 1.3vmax 1.2vmax;
+transition: 0.3s;
+}
+
+.gameCircleFirst img{
+    width: 4.3vmax;
+    height: 4vmax;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.gameCircle{
+    display: flex;
+    background-color: #930084;
+    align-items: center;
+    justify-content: center;
+border-radius: 20px;
+text-decoration: none;
+padding: 1.3vmax 4vmax 1.3vmax 1.2vmax;
+}
+
+.gameCircle img{
+    width: 4.3vmax;
+height: 4vmax;
+border: 5px solid white;
+border-radius: 20px;
+}
+.gameCircleText{
+    margin-left: 1.0vmax;
+    color: #FFFFFF;
+}
+.gameCircleTextP1{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2vmax;
+}
+.gameCircleTextP2{
+    font-weight: lighter;
+    font-size: 0.9vmax;
+}
+
+.hidden{
+    display: none;
+    text-decoration: none;
+}
+
+.hands{
+    height: 100vh;
+    background-image: url('../images/c837a6_3ae7699ada04427a9f0cbb6ad651a310_mv2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.third-pages{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third-fruit{
+display: flex;
+justify-content: center;
+ width: 60%;
+align-self: flex-end;
+}
+.third-fruit img{
+    margin: auto;
+    width: 9vmax;
+    height: 11vmax;
+    }
+.explore{
+    margin-right: 0.8vmax;
+    background-color: #D9D9D9;
+    border-radius: 80px;
+    padding: 0.5vmax 2.5vmax;
+    color: #B100B5;
+
+}
+.pieces{
+    color: #FFFFFF;
+    word-spacing: 0.1vmax;
+}
+.third-pages p{
+    width: 50vmax;
+    font-size: 1.3vmax;
+    word-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 0.2vmax;
+    text-align: center;
+color: #FFFFFF;
+}
+.third-pages-hero{
+display: flex;
+margin-bottom: 1vmax;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+height: auto;
+}
+.third-pages-hero h1{
+ font-size: 4vmax;
+
+    }
+.games-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-content{
+background: url('../images/First Game/background.jpg');
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    width: 85%;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.game-content-2{
+    background: url('../images/Third Game/background.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        width: 85%;
+        height: 85vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .game-content-3{
+        background: url('../images/Second Game/background.png');
+     
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            width: 85%;
+            height: 85vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+    
+        }
+  
+.game-card{
+    background-color: rgb(81, 24, 96, 0.9);
+  
+    margin-right: 3vmax;
+    width: 40vmax;
+    border-radius: 40px;
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+padding: 1.2vmax 0vmax;
+ 
+}
+.game-card-2{
+    background-color: rgb(81, 24, 96, 0.9);
+    margin-left: 3vmax;
+    width: 40vmax;
+    border-radius: 40px;
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+padding: 1.2vmax 0vmax;
+ 
+}
+.game-card-3{
+    background-color: rgb(81, 24, 96, 0.9);
+    margin-right: 3vmax;
+    width: 40vmax;
+    border-radius: 40px;
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+padding: 1.2vmax 0vmax;
+ 
+}
+.game-content-hidden-img{
+    display: none;
+}
+.game-card-p{
+width: 33vmax;
+ color: rgb(218, 218, 218);
+ line-height: 1.8vmax;
+
+ font-size: 1.3vmax;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.img-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-content img{
+  width: 7.5vmax;
+  height: 7vmax;
+  border: 4px solid white;
+  border-radius: 20px;
+}
+.img-content-text-hero-1{
+    font-size: 1.8vmax;
+    width: 15vmax;
+color: white;
+}
+.img-content-text-hero-2{
+    font-size: 1vmax;
+    
+color: rgb(204, 204, 204);
+}
+.priceBuy{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceBuy a{
+ text-decoration: none;
+ color: rgb(56, 56, 56);
+ font-size: 1.6vmax;
+ border-radius: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ background-color: white;
+ padding: 0.8vmax 1.4vmax;
+ transition: 0.3s;
+}
+.priceBuy a:hover{
+   background-color: rgb(170, 170, 170);
+
+   }
+.priceBuy p{
+    color: white;
+    font-size: 1.6vmax;
+}
+.work-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.work-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 55vmax;
+    width: 80%;
+    position: relative;
+}
+.work-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.work-section img{
+    height: 21vmax;
+ width:  37vmax;
+ border-radius: 40px;
+
+}
+.work-section p{
+font-size: 3.8vmax;
+color: white;
+letter-spacing: 0.3px;
+}
+.work-section a{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(93, 46, 94);
+   border-radius: 30px;
+   padding: 0.8vmax 1vmax;
+   font-size: 1.2vmax;
+   cursor: pointer;
+   transition: 0.3s;
+    }
+    .work-section a:hover{
+ 
+        color: white;
+        background-color:  rgb(143, 29, 145);
+        
+       
+         }
+    .built-text{
+        display: flex;
+    flex-direction: row;
+   align-items: center;
+flex-wrap: wrap;
+    }
+    .builtPadding{
+        margin-right: 0.3vmax;
+    }
+    .come-work{
+        font-size: 1.8vmax !important;
+    }
+    .greatGames{
+        background-color: rgb(185, 0, 189);
+        padding: 0.5vmax 1vmax;
+        border-radius: 40px;
+    }
+    .work-hands{
+        position: absolute;
+        right: 0;
+
+    }
+    .work-hands img{
+ 
+        width: 100vmax;
+        height: 48vmax;
+    }
+    
+    .form-section{
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+position: relative;
+
+    }
+    .form-top{
+        height: auto;
+ width: 100%;
+ background: url('../images/formbackground.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ width: 100%;
+ margin-top: -18.9vmax;
+position: absolute;
+    }
+    .form-top-background{
+        background-color: rgb(117, 0, 105,0.6);
+        height: 100%;
+        width: 100%;
+    }
+  
+    .form-content{
+        display: flex;
+        flex-direction: column;
+   z-index: 2000;
+        height: auto;
+        top: 0;
+        width: 100%;
+    }
+
+    .form-content-text{
+        height: 49vh;
+        margin-top: 1vmax;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+
+    }
+    .content-text-container{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        height: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 3vmax;
+        color: white;
+        letter-spacing: 3px;
+    }
+  
+    .content-text-container a{
+text-decoration: none;
+color: white;
+font-size: 1.2vmax;
+margin: 1vmax;
+background-color: rgb(187, 0, 157);
+padding: 1vmax 1vmax;
+border-radius: 40px;
+    }
+    .about-web{
+        font-size: 1.8vmax;
+        font-weight: bold;
+    }
+    .form-content-form{
+        height: 91vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+  
+   .contacted-form{
+    background-color: rgba(255, 196, 0, 0.6);
+    height: auto;
+    width: 29vmax;
+    border-radius: 20px;
+    padding: 2vmax 0vmax;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    
+   }
+   .formed-top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+ height: auto;
+ margin-bottom: 1vmax;
+   }
+   .formed-top-text{
+    font-size: 0.9vmax !important;
+    width: 83%;
+   }
+   .formed-top-hero{
+    font-weight: bolder !important;
+    font-size: 1.4vmax !important;
+    margin-bottom: 0.5vmax;
+   }
+   .formed-middle{
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 65%;
+
+}
+   .formed-Name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1vmax;
+   }
+.firstName-input{
+    width: 7vmax;
+    height: auto;
+    margin: 0px 0.2px;
+    font-size: 0.9vmax;
+}
+.Subject-input{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1vmax;
+}
+.firstName-input input{
+    width: 100%;
+  height: 2.5vmax;
+  font-size: 1vmax;
+  border-radius: 5px !important;
+}
+.Subject-input input{
+    width: 100%;
+  height: 2.5vmax;
+  font-size: 1vmax;
+  border-radius: 5px !important; 
+}
+
+.Subject-input textarea{
+    width: 100%;
+    height: 10.5vmax;
+font-size: 1vmax;
+margin-bottom: 1vmax;
+border-radius: 5px !important;
+}
+.formed-submit-button{
+    cursor: pointer;
+    width: 75%;
+    background-color: rgb(61, 0, 191);
+    color: white;
+    font-size: 1vmax;
+    padding: 0.5vmax 1vmax;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.formed-submit-button:hover{
+  
+    background-color: rgb(46, 1, 143);
+   
+}
+.footer{
+   height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-evenly;
+align-items: center;
+overflow: hidden;
+
+}
+.footer-top{
+width: 95%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 30%;
+border-bottom: 3px solid white;
+padding-bottom: 2vmax;
+margin-bottom: 0.5vmax;
+
+}
+.footer-top p{
+color: white;
+font-size: 1.9vmax;
+letter-spacing: 0.5px;
+
+    }
+    .hero-2{
+        background-color: #9D0FA9;
+        font-weight: bolder;
+        border-radius: 30px;
+        width: 12vmax;
+        padding: 0.7vmax 0.5vmax;
+        display: flex;
+        align-items: center;
+    margin-bottom: 1vmax;
+    }
+    
+    .hero-2 img{
+        padding-right: 0.4vmax;
+       width: 2.4vmax;
+     height: 2.4vmax;
+    }
+    .hero-2 h1{
+        color: #FFFFFF;
+        font-size: 1.6vmax;
+    }  
+    .footer-middle{
+
+        width: 80%;
+        height: 60%;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+     
+    }  
+    .contact-row{
+
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding-top: 2.9vmax;
+    margin: 0vmax 2vmax 3vmax 0vmax;
+    }
+    .contact-title{
+color: white;
+        font-size: 1.4vmax;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5vmax;
+    }
+    .contact-detail p{
+        font-size: 1.3vmax;
+        color: rgb(207, 207, 207);
+        line-height: 2.1vmax;
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    .subscribe-row{
+        height: 100%;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding:  2.7vmax 0vmax 3vmax 0vmax;
+        
+    }
+    .subscribe-title{
+        color: white;
+        font-size: 1.4vmax;
+        letter-spacing: 0.5px;
+        margin-bottom: 1.5vmax;
+
+    }
+    .subscribe-input p{
+        font-size: 1.3vmax;
+        color: rgb(207, 207, 207);
+        line-height: 2.1vmax;
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    .subscribe-search{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .subscribe-search input{
+      height: 2.4vmax;
+      font-size: 1.2vmax;
+      width: 23vmax;
+      margin-right: 0.3vmax;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .subscribe-search button{
+     background-color: rgb(187, 0,203);
+     color: white;
+     border: none;
+        font-size: 1.2vmax;
+        cursor: pointer;
+      border-radius: 30px;
+      padding: 0.5vmax 0.8vmax;
+        transition: 0.2s;
+      }
+      .subscribe-search button:hover{
+        background-color: rgb(91, 2, 99);
+      
+           
+         }
+      .menu-row{
+        padding-top: 4.5vmax;
+        margin-right: 2.5vmax;
+      }
+      .Menu-title{
+        color: white;
+        font-size: 1.4vmax;
+        letter-spacing: 0.5px;
+        margin-bottom: 1.5vmax;
+      }
+      .social-row{
+        padding-top: 4.5vmax;
+      }
+      .left-row{
+        width:46vmax;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+       
+      
+      }
+      .right-row{
+        width:30vmax;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       
+      }
+      .footerbottom{
+        width: 85%;
+        color: white;
+        font-size: 1vmax;
+        padding: 1.2vmax 0vmax;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+        letter-spacing: 2px;
+       
+      }
+
+
+      /*---------------------------------------Store Class Section-----------------------------------------------------------------*/
+
+.store-navbar{
+    width: 100%;
+    height: 8vmax;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.store-nav-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.add-to-cart{
+    background-color: rgb(214, 214, 214);
+    text-decoration: none;
+    color: black;
+cursor: pointer;
+    border-radius: 30px;
+    width: auto;
+    padding: 0.5vmax 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.add-to-cart:hover{
+    background-color: rgb(158, 158, 158);
+
+}
+.add-to-cart p{
+   font-size: 0.8vmax;
+}
+
+.add-to-cart img{
+    width: 1.9vmax;
+    height: 1.9vmax;
+}
+.store-pages-background{
+    background: url('../images/da77874be0465f76e27d990889dfd7ac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: auto;
+}
+.store-pages-background-filter{
+    height: auto;
+    width: 100%;
+    background-color:rgb(0,209, 255, 0.4);
+}
+.game-store-landing{
+    height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+.game-cover-photo{
+    background: url('../images/First Game/Send/KEi2bO.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 52%;
+}
+.game-cover-photo-far-from-noise{
+    background: url('../images/Third Game/iT3Fu4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 52%;
+}
+.game-cover-photo-Pikuniku{
+    background: url('../images/Second Game/kYBD_+.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 52%;
+}
+.pikuwidth{
+    width: 40vmax !important;
+    font-size: 1.2vmax !important;
+    letter-spacing: 0.3px !important;
+    
+}
+.list-container{
+    width: 100%;
+height: 48%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.list-container-content{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.list-features{
+    font-size: 1.4vmax;
+    letter-spacing: 0.3px;
+    word-spacing: 5px;
+    line-height:1.9vmax;
+}
+.list-payment-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.list-payment-button p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7vmax;
+}
+.payment-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-button{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 71, 208);
+    padding: 0.5vmax 0.6vmax 0.5vmax 0.2vmax;
+    margin-right: 0.5vmax;
+}
+.payment-button p{
+    font-size: 1.1vmax !important;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    color: white !important;
+    font-family: 'Inter', sans-serif !important;
+}
+.payment-button img{
+height: 2.8vmax;
+width: 2.8vmax;
+margin-right: 1vmax;
+}
+.credit{
+    background-color: rgb(167, 0, 0) !important;
+    padding-left: 0.7vmax !important;
+}
+.hero-2{
+    background-color: #9D0FA9;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 10.4vmax;
+    padding: 0.5vmax 0.5vmax;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.hero-2 img{
+    padding-right: 0.4vmax;
+   width: 2.3vmax;
+ height: 2.3vmax;
+}
+.hero-2 h1{
+    color: #FFFFFF;
+    font-size: 1.4vmax;
+}
+
+.spec-second-store-pages{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spec-content{
+    padding: 9vmax 0vmax;
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spec-content img{
+width: 45vmax;
+height: 28vmax;
+}
+.spec-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2vmax;
+    letter-spacing: 0.5px;
+    height: 80%;
+    color: white;
+    margin-bottom: 1vmax;
+}
+.minimum{
+    height: 50%;
+
+display: flex;
+align-items:flex-start;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 2vmax;
+}
+/*----------------------------------------Add To Cart---------------------------------------------------------------*/
+
+.body-2{
+    height: auto;
+
+    background-color: rgba(1, 43, 51, 0.8);
+    padding-top: 3vmax;
+    z-index: -6000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vmax 0vmax 0vmax 0vmax;
+}
+.myCart{
+
+    top: 3vmax;
+   left: 12vmax;
+   color: white;
+   font-size: 2vmax;
+ align-self: flex-start;
+ margin-bottom: 1vmax;
+}
+.emptyMessage{
+   
+    height: 50vh;
+    width: 100%;
+    color: white;
+    font-size: 3vmax;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.add-to-cart-body{
+ 
+    height: auto;
+    width: 90%;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+flex-wrap: wrap;
+margin: 10vh 0vh 15vh 0vh;
+}
+
+
+.game-cards{
+    height: 100%;
+
+    width: 48vmax;
+ 
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.gameContainerParents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+.game-1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+background-color: rgb(58, 54, 58);
+padding: 1.5vmax 1.5vmax;
+border-radius: 5px;
+color: white;
+margin-bottom: 1vmax;
+position: relative;
+}
+.game-img-detail{
+   display: flex;
+   justify-content: space-evenly;
+   align-self: center;
+
+   height: 100%;
+
+ 
+}
+.game-price-wishlist{
+
+font-size: 1.8vmax;
+}
+.game-img-detail-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 10vmax;
+   
+
+}
+.game-img-detail-content p{
+font-size: 1.5vmax;
+
+}
+.game-img-detail img{
+    width: 9vmax;
+    height: 10vmax;
+    margin-right: 0.6vmax;
+    border-radius: 2px;
+}
+.summary-chart{
+    height: 60%;
+    width: 22.5vmax;
+    background-color: rgb(58, 54, 58);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    margin-top: 6vmax;
+border-radius: 10px;
+    color: white;
+    padding: 0.5vmax 1vmax;
+
+}
+.summary-chart p{
+font-size: 1.8vmax;
+}
+.summary-chart-prices{
+    width: 100%;
+    height: 5vmax;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.7);
+    margin-bottom: 1vmax;
+}
+.summary-chart-prices p{
+    font-size: 1.3vmax !important;
+}
+.summary-chart-total{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: column;
+    
+}
+.summary-chart-total button{
+    width: 100%;
+background-color: #9900E5;
+border: none;
+font-size: 1vmax;
+color: white;
+padding: 0.8vmax 0vmax;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+.summary-chart-total button:hover{
+
+background-color: #510379;
+
+
+}
+.total-container{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1vmax;
+}
+.total-container p{
+    font-size: 1.3vmax !important;
+    
+}
+#taxedCalc{
+    color: rgb(150, 150, 150);
+}
+.removeButton{
+    cursor: pointer;
+position: absolute;
+letter-spacing: 2.5px;
+color: rgb(160, 160, 160);
+bottom: 0;
+    right: 0;
+    margin: 1vmax 1vmax;
+    border-bottom: 5px solid rgb(80, 80, 80);
+}
+.removeButton:hover{
+
+color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+.hero-3{
+    position: absolute;
+    background-color: #ac0048;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 6vmax;
+    text-decoration: none;
+    padding: 0.5vmax 0.5vmax;
+    display: flex;
+    align-items: center;
+cursor: pointer;
+top: 1vmax;
+left: 3vmax;
+}
+.hero-3 img{
+    padding-right: 0.4vmax;
+   width: 2.3vmax;
+ height: 2.3vmax;
+}
+.hero-3 h1{
+    color: #FFFFFF;
+    font-size: 1.4vmax;
+}
+@media screen and (min-width:1366px){
+    .firstImg{
+        height: 11vmax;
+        width: 11vmax;
+    }
+}
+@media screen and (max-width:912px){
+    .work-hands img{
+ 
+        width: 60vmax;
+        height: 48vmax;
+    }
+}
+@media screen and (max-width:820px){
+    .navSide{
+        display: none;
+    }
+    .hideNavbar{
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      right: 0;
+      top: 0;
+      background-color: #9D0FA9;
+      height: 200vh;
+      width: 150px;
+    margin-right: -200px;
+      overflow: hidden;
+      transition: 0.4s;
+      padding-top: 20px;
+      z-index: 1000;
+        }
+        .hideNavbar  li{
+            margin-top: 2vmax;
+            padding: 0vmax 5vmax 2vmax 0vmax;
+              }
+              .fa-bars{
+             
+                display: block;
+            }
+              .fa-circle-xmark{
+            position: absolute;
+            top: 1.5vmax;
+            right: 1.5vmax;
+            display: block;
+            }
+            .landing{
+                height: 20%;
+                margin: 10vmax 0vmax;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .landing-content{
+             height: 20%;
+   
+            }
+            .cuteObject{
+      
+                height: 80%;
+                width: 100%;
+                margin: auto;
+                position:relative;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                }
+              
+                
+                .topObject{
+                    display: flex;
+                    justify-content: center;
+                  
+                width: 76%;
+                margin-top: 10vmax;
+                display: none;
+                }
+                .botObject{
+                flex-direction: column;
+                
+                }
+                .firstImg{
+                 display: none;
+                }
+ .gameCircle{
+    display: flex;
+    background-color: #930084;
+    align-items: center;
+    justify-content: center;
+border-radius: 20px;
+padding: 1.7vmax 4vmax 1.7vmax 1.4vmax;
+margin-bottom: 3.5vmax;
+box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.2);
+}
+
+.gameCircle img{
+    width: 9vmax;
+height: 9vmax;
+border: 5px solid white;
+border-radius: 20px;
+}
+.gameCircleText{
+    margin-left: 5.3vmax;
+    color: #FFFFFF;
+}
+.gameCircleTextP1{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 5.5vmax;
+}
+.gameCircleTextP2{
+    font-weight: lighter;
+    font-size: 1.5vmax;
+}
+.byGamers{
+    color: #F681D3;
+    font-weight: bold;
+    font-size: 6.5vmax;
+}
+.forGamers{
+    border-radius: 50px;
+    background-color: #9900E5;
+    color: #FFFFFF;
+ padding: 0.7vmax 2vmax;
+}
+.forGamers p{
+font-weight:900;
+font-size: 6.5vmax;
+}
+.hero{
+    background-color: #9D0FA9;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 23.4vmax;
+    padding: 1.4vmax 0.1vmax 1.4vmax 1.4vmax;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero img{
+    padding-right: 0.4vmax;
+   width: 4vmax;
+ height: 4vmax;
+}
+.hero h1{
+    color: #FFFFFF;
+    font-size: 3vmax;
+}
+.third-pages{
+    height: 50vh;
+
+}
+.third-pages-hero {
+margin-bottom: 2vmax;
+   
+       }
+.third-pages-hero h1{
+    font-size: 4vmax;
+   
+       }
+   
+       .third-pages p{
+        width: 90%;
+        font-size: 2vmax;
+        word-spacing: 2px;
+    letter-spacing: 0.2vmax;
+        text-align: center;
+    color: #FFFFFF;
+    }
+    .third-fruit{
+        display: flex;
+        justify-content: center;
+         width: 100%;
+        align-self: flex-end;
+        }
+        .third-fruit img{
+            margin: auto;
+            width: 13vmax;
+            height: 15.5vmax;
+            margin-bottom: 2vmax;
+            }
+            .games-section{
+    
+              position: relative;
+            }
+            .game-content{
+                background: none;
+                justify-content: flex-end;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                overflow: hidden;
+                }
+                .game-content-2{
+                    background: none;
+                    justify-content: flex-end;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 100%;
+                    overflow: hidden;
+                    }
+                    .game-content-3{
+                        background: none;
+                        justify-content: flex-end;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 100%;
+                        overflow: hidden;
+                        }
+                .game-content-hidden-img{
+                    display: block;
+                    position: absolute;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 100%;
+                    height: 35vh;
+                    top: 10vmax; 
+                }
+                .game-card{
+                   z-index: 1000;
+                 margin-right: 0;
+                 width: 50vmax;
+                 height: 45vmax;
+               
+             padding: 1.2vmax 0vmax;
+                }
+                .game-card-2{
+                    z-index: 1000;
+                  margin-left: 0;
+                  width: 50vmax;
+                  height: 45vmax;
+                
+              padding: 1.2vmax 0vmax;
+                 }
+              
+                 .game-card-3{
+                    z-index: 1000;
+                  margin-right: 0;
+                  width: 50vmax;
+                  height: 45vmax;
+                
+              padding: 1.2vmax 0vmax;
+                 }
+                .games-section{
+                    height: 95vh;
+               
+                }
+                .img-content{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+                .img-content img{
+                  width: 9.5vmax;
+                  height: 9vmax;
+                  border: 4px solid white;
+                  border-radius: 20px;
+                }
+                .img-content-text-hero-1{
+                    font-size: 2.5vmax;
+                    width: 20vmax;
+                color: white;
+                }
+                .img-content-text-hero-2{
+                    font-size: 2.2vmax;
+                    
+                color: rgb(204, 204, 204);
+                }
+                .game-card-p{
+                    width: 40vmax;
+            
+                     line-height: 2.4vmax;
+                    
+                     font-size:2.1vmax;
+                  
+                    
+                    }
+                    .priceBuy{
+                        display: flex;
+                        width: 80%;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .priceBuy a{
+                     text-decoration: none;
+                     color: rgb(56, 56, 56);
+                     font-size: 2vmax;
+                     border-radius: 30px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    
+                     background-color: white;
+                     padding: 0.8vmax 1.4vmax;
+                    }
+                    .priceBuy p{
+                        color: white;
+                        font-size: 2vmax;
+                    }
+                    .work-section{
+                        height: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        position: relative;
+                      
+                    }
+                    .work-content{
+                        display: flex;
+                        justify-content: space-evenly;
+                        flex-direction: column;
+                        height: 36vh;
+                        width: 80%;
+                    }
+                    .work-hands img{
+ 
+                        width: 50vmax;
+                        height: 28vmax;
+                    }
+                    .work-text{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: center;
+                    }
+                    .work-section img{
+                        height: 16vmax;
+                     width:  30vmax;
+                     border-radius: 40px;
+                    }
+                    .work-section p{
+                    font-size: 2.7vmax;
+                    color: white;
+                    letter-spacing: 0.3px;
+                    }
+                    .work-section a{
+                       text-decoration: none;
+                       color: white;
+                       background-color: rgb(93, 46, 94);
+                       border-radius: 30px;
+                       padding: 0.5vmax 1vmax;
+                       font-size: 1.2vmax;
+                        }
+                        .content-text-container{
+                            display: flex;
+                            flex-direction: column;
+                            width: 90%;
+                            height: 100%;
+                            align-items: flex-start;
+                            justify-content: center;
+                        }      
+                        .content-text-container a{
+                         
+                            font-size: 1.8vmax;
+                           
+                                }
+                                .form-top{
+                           
+                             margin-top: -25.9vmax;
+                           
+                                }
+                                .contacted-form{
+                                  
+                                    height: auto;
+                                    width: 43vmax
+                                   }
+                                   .firstName-input{
+                                    width: 50vmax;
+                                    height: auto;
+                                    margin: 0px 0.2px;
+                                    margin-bottom: 1.8vmax;
+                                }
+                                .Subject-input{
+                                    width: 100%;
+                                    height: auto;
+                                    
+                                }   
+                                .Subject-input input{
+                                    height: 4.3vmax;   
+                                    font-size: 2vmax;                              
+                                }  
+                                .firstName-input input{
+                                 height: 4.3vmax;
+                                 font-size: 2vmax;   
+                                }  
+                                .formed-top-text{
+                                    font-size: 1.9vmax !important;
+                                    width: 95%;
+                                   }
+                                   .formed-top-hero{
+                                    font-weight: bolder !important;
+                                    font-size: 2.4vmax !important;
+                                    margin-bottom: 0.5vmax;
+                                   }  
+                                   .Subject-input textarea{
+                                    font-size: 1.9vmax !important;
+                                }
+                                .formed-submit-button{
+                                   
+                                    width: 75%;
+                                    
+                                    font-size: 2.5vmax;
+                                    padding: 0.5vmax 1vmax;
+
+                                }
+                                .content-text-container{
+                                   
+                                    font-size: 3.4vmax;
+                                   
+                                }
+                              
+                                .content-text-container a{
+                          
+                            font-size: 2.5vmax;
+                        
+                                }
+                                .about-web{
+                                    font-size: 2.3vmax;
+                                }
+                                .contact-title{
+                                    color: white;
+                                            font-size: 2.2vmax;
+                                            letter-spacing: 0.5px;
+                                            margin-bottom: 0.5vmax;
+                                        }
+                                        .contact-detail p{
+                                            font-size: 1.9vmax;
+                                            color: rgb(207, 207, 207);
+                                            line-height: 2.1vmax;
+                                            letter-spacing: 1px;
+                                            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                    
+                                        }
+                                        .subscribe-title{
+                                          
+                                            font-size: 2.2vmax;
+                                           
+                                    
+                                        }
+                                        .Menu-title{
+                                        
+                                            font-size: 2.2vmax;
+                                            
+                                          }
+                                          .subscribe-input p{
+                                            font-size: 2.1vmax;
+                                           margin-bottom: 0.8vmax;
+                                    
+                                        }
+                                          .subscribe-search input{
+                                            height: 3vmax;
+                                            font-size: 1.2vmax;
+                                            width: 32vmax;
+                                            margin-right: 0.3vmax;
+                                            border-radius: 20px;
+                                            
+                                          }
+                                          .subscribe-search button{
+                                           background-color: rgb(187, 0,203);
+                                           color: white;
+                                           border: none;
+                                              font-size: 2.2vmax;
+                                              cursor: pointer;
+                                            border-radius: 30px;
+                                            padding: 0.7vmax 0.9vmax;
+                                              
+                                            }
+                                            .right-row{
+                                                width:30vmax;
+                                                height: 100%;
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: space-evenly;
+                                                align-items: center;
+                                                flex-wrap: wrap;
+                                               margin-bottom: 1.2vmax;
+                                              }
+                                              .footerbottom{
+                                               text-align: center;
+                                               
+                                              }
+                                              .contact-row{
+
+                                             
+                                            margin: 0vmax 0vmax 3vmax 0vmax;
+                                            }
+                                            .form-section{
+                                                margin-bottom: 36vmax;
+                                                
+                                                    }
+                                                    .form-content-form img{
+                                                     width:34vmax;
+                                                     height: 30vmax;
+                                                    }
+                                                    .firstName-input{
+                                                      
+                                                        font-size: 2vmax;
+                                                    }    
+                                                    .list-features{
+                                                        font-size: 2vmax;
+                                                        letter-spacing: 0.3px;
+                                                        word-spacing: 5px;
+                                                        line-height:2.2vmax;
+                                                    }  
+                                                    .payment-button{
+                                                       
+                                                        padding: 1vmax 0.6vmax 1vmax 0.2vmax;
+                                                        margin-right: 1vmax;
+                                                    }
+                                                    .payment-button p{
+                                                        font-size: 1.7vmax !important;
+                                                      
+                                                    }
+                                                    .payment-button img{
+                                                    height: 2.8vmax;
+                                                    width: 2.8vmax;
+                                                    margin-right: 0.5vmax;
+                                                    }
+                                                    .list-payment-button p{
+                                                        font-family:Verdana, Geneva, Tahoma, sans-serif;
+                                                        font-size: 2vmax;
+                                                        margin-bottom: 0.5vmax;
+                                                    }
+                                                    .hero-2{
+                                                       
+                                                        width: 12.4vmax;
+                                                        padding: 1vmax 1vmax;
+                                                        
+                                                    
+                                                    }
+                                                    .hero-2 img{
+                                                        padding-right: 0.4vmax;
+                                                       width: 2.3vmax;
+                                                     height: 2.3vmax;
+                                                    }
+                                                    .hero-2 h1{
+                                                        color: #FFFFFF;
+                                                        font-size: 1.8vmax;
+                                                    }
+                                                    .spec-content{
+                                                       
+                                                        justify-content: center;
+                                                       
+                                                    }
+                                                    .spec-content img{
+                                                        width: 40vmax;
+                                                        height: 28vmax;
+                                                        }
+                                                        .spec-list{
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            justify-content: space-evenly;
+                                                            font-size: 1.2vmax;
+                                                            letter-spacing: 0.5px;
+                                                            height: 80%;
+                                                            color: white;
+                                                            margin-bottom: 3vmax;
+                                                        }
+                                                        
+.summary-chart{
+    height: 60%;
+    width: 49.2vmax;
+    background-color: rgb(58, 54, 58);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    margin-top: 6vmax;
+border-radius: 10px;
+    color: white;
+    padding: 0.5vmax 1vmax;
+
+}
+.summary-chart p{
+font-size: 2vmax;
+}
+.summary-chart-prices{
+    width: 100%;
+    height: 8vmax;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.7);
+    margin-bottom: 1vmax;
+}
+.summary-chart-prices p{
+    font-size: 2vmax !important;
+}
+.summary-chart-total{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-direction: column;
+    
+}
+.summary-chart-total button{
+    width: 100%;
+background-color: #9900E5;
+border: none;
+font-size: 1.5vmax;
+color: white;
+padding: 0.8vmax 0vmax;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+margin-bottom: 1vmax;
+}
+     
+.game-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(58, 54, 58);
+    padding: 1.8vmax 1.5vmax;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 1vmax;
+    position: relative;
+    }
+    .game-img-detail{
+       display: flex;
+       justify-content: space-evenly;
+       align-self: center;
+    
+       height: 100%;
+    
+     
+    }
+    .game-price-wishlist{
+    
+    font-size: 2.2vmax;
+    }
+  
+    .game-img-detail-content p{
+    font-size: 1.6vmax;
+    
+    }
+    .game-img-detail img{
+        width: 9vmax;
+        height: 10vmax;
+        margin-right: 1vmax;
+    }                                             
+}
